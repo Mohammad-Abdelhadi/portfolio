@@ -165,7 +165,6 @@ button:hover::before {
 .projects > p {
   text-align: center;
   margin-bottom: 30px;
-
 }
 
 .cards > img {
@@ -256,16 +255,18 @@ span {
   display: flex;
   height: 370px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .skills-cards {
   display: flex;
   color: rgb(255, 255, 255);
-  width: 23%; /* updated */
+  width: 18%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
   margin: 10px;
+  height: 320px;
 }
 
 .skills-cards p,
@@ -395,3 +396,20 @@ form textarea {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
 } */
+
+/* Example media query */
+@media screen and (max-width: 767px) {
+  .skills-cards {
+    width: 60%;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* Add additional styles for elements as needed */
+  .welcome-message {
+    font-size: 18px;
+  }
+}

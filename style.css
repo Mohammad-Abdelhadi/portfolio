@@ -415,3 +415,41 @@ form textarea {
     display: none;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .skills-cards {
+    width: 60%;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  /* Add additional styles for elements as needed */
+  .welcome-message {
+    font-size: 18px;
+  }
+  .right-photo {
+    display: none;
+  }
+  .link-photos > img {
+    width: 250px;
+    height: 250px;
+    border-radius: 16px;
+    gap: 10px 37px;
+  }
+  .cards {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-template-rows: repeat(auto-fit, minmax(350px, auto));
+    gap: 10px 37px;
+    height: auto;
+  }
+  .projects > p {
+font-size: 10px;
+  }
+}
