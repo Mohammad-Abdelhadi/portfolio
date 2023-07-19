@@ -296,7 +296,7 @@ span {
   margin-left: 10px;
 }
 .contents p {
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 .contactus {
   display: flex;
@@ -318,13 +318,25 @@ span {
 
 form input {
   margin: 10px;
-  height: auto;
+  /* height: auto; */
+  border: 2px solid #4f4a5f;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
 }
 form textarea {
   margin: 10px;
   height: auto;
   width: 100%;
+  padding: 10px;
+  border: 2px solid #4f4a5f;
+
+  color: white;
+  background-color: transparent;
+
+
 }
+
 .photos {
   display: grid;
 }
@@ -332,6 +344,10 @@ form textarea {
   width: 25px;
   height: 50px;
   margin-right: 6px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #4f4a5f;
+  
 }
 .contentrr {
   display: flex;
@@ -354,11 +370,7 @@ form textarea {
   width: auto;
 }
 
-::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: rgb(135, 118, 118);
-  opacity: 0.7; /* Firefox */
-}
+
 
 .btn {
   display: flex;
@@ -421,6 +433,10 @@ form textarea {
 @media screen and (max-width: 767px) {
   .skills-cards {
     width: 60%;
+  }
+  .first{
+    width: 100%;
+
   }
   .content {
     display: flex;
