@@ -406,12 +406,7 @@ form textarea {
   /* border-radius: 0 !important; */
   background-image: url("./images/webdev.svg") !important;
 }
-/* .btstrap:hover{
-  background-color: red !important;
-  color: red !important;
-  border: none !important;
-  border-radius: 0 !important;
-} */
+
 .btn {
   display: flex;
   justify-content: center;
