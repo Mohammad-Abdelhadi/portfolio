@@ -424,8 +424,7 @@ form textarea {
   text-decoration: none;
   color: rgb(255, 255, 255);
   background-color: #0076aa;
-  width: 110px;
-  height: 37px;
+ 
   border-radius: 16px;
   display: flex;
   justify-content: center;
